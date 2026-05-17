@@ -1,0 +1,82 @@
+{
+  "model": "DeepSeek-V4-Flash-280B",
+  "method": "cross-layer joint TwoNN",
+  "sample_rows_per_layer": 200,
+  "expert_samples_per_layer": 2,
+  "max_twonn_points": 5000,
+  "elapsed_s": 50.7,
+  "results": {
+    "expert_w1": {
+      "n_rows_total": 17200,
+      "n_layers": 86,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 110.74,
+      "twonn_time_s": 0.4
+    },
+    "expert_w2": {
+      "n_rows_total": 17200,
+      "n_layers": 86,
+      "embedding_dim": 2048,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 181.51,
+      "twonn_time_s": 0.1
+    },
+    "expert_w3": {
+      "n_rows_total": 17200,
+      "n_layers": 86,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 192.77,
+      "twonn_time_s": 0.1
+    },
+    "gate": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 21.3,
+      "twonn_time_s": 0.1
+    },
+    "wkv": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 611.91,
+      "twonn_time_s": 0.1
+    },
+    "wo_a": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 171.69,
+      "twonn_time_s": 0.1
+    },
+    "wo_b": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 8192,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 311.76,
+      "twonn_time_s": 0.1
+    },
+    "wq_a": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 4096,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 77.31,
+      "twonn_time_s": 0.1
+    },
+    "wq_b": {
+      "n_rows_total": 8600,
+      "n_layers": 43,
+      "embedding_dim": 1024,
+      "sample_rows_per_layer": 200,
+      "joint_twonn_dim": 82.29,
+      "twonn_time_s": 0.0
+    }
+  }
+}
