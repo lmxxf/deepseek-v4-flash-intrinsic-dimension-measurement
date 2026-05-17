@@ -1,0 +1,862 @@
+{
+  "model": "DeepSeek-V4-Flash-280B",
+  "method": "fractal dimension estimation",
+  "total_matrices": 61,
+  "elapsed_s": 98.5,
+  "results": [
+    {
+      "name": "L-1.embed",
+      "shape": [
+        129280,
+        4096
+      ],
+      "participation_ratio": 227.38,
+      "twonn_row_dim": 46.85,
+      "twonn_col_dim": 69.82,
+      "correlation_dim_D2": 5.88,
+      "time_s": 9.2,
+      "layer": -1,
+      "category": "embed"
+    },
+    {
+      "name": "L0.wkv",
+      "shape": [
+        512,
+        4096
+      ],
+      "participation_ratio": 446.92,
+      "twonn_row_dim": 90.9,
+      "twonn_col_dim": 120.51,
+      "correlation_dim_D2": 13.68,
+      "time_s": 0.1,
+      "layer": 0,
+      "category": "attn"
+    },
+    {
+      "name": "L0.wo_a",
+      "shape": [
+        8192,
+        4096
+      ],
+      "participation_ratio": 2157.58,
+      "twonn_row_dim": 249.81,
+      "twonn_col_dim": 107.89,
+      "correlation_dim_D2": 12.73,
+      "time_s": 5.5,
+      "layer": 0,
+      "category": "attn"
+    },
+    {
+      "name": "L0.wo_b",
+      "shape": [
+        4096,
+        8192
+      ],
+      "participation_ratio": 2516.67,
+      "twonn_row_dim": 343.96,
+      "twonn_col_dim": 159.07,
+      "correlation_dim_D2": 0.0,
+      "time_s": 5.6,
+      "layer": 0,
+      "category": "attn"
+    },
+    {
+      "name": "L0.wq_a",
+      "shape": [
+        1024,
+        4096
+      ],
+      "participation_ratio": 787.42,
+      "twonn_row_dim": 82.58,
+      "twonn_col_dim": 182.27,
+      "correlation_dim_D2": 62.66,
+      "time_s": 0.1,
+      "layer": 0,
+      "category": "attn"
+    },
+    {
+      "name": "L0.wq_b",
+      "shape": [
+        32768,
+        1024
+      ],
+      "participation_ratio": 956.43,
+      "twonn_row_dim": 78.55,
+      "twonn_col_dim": 70.15,
+      "correlation_dim_D2": 6.01,
+      "time_s": 0.2,
+      "layer": 0,
+      "category": "attn"
+    },
+    {
+      "name": "L0.expert228.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1217.56,
+      "twonn_row_dim": 113.21,
+      "twonn_col_dim": 80.92,
+      "correlation_dim_D2": 35.94,
+      "time_s": 0.6,
+      "layer": 0,
+      "expert_idx": 228
+    },
+    {
+      "name": "L0.expert228.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1363.56,
+      "twonn_row_dim": 111.18,
+      "twonn_col_dim": 138.9,
+      "correlation_dim_D2": 110.02,
+      "time_s": 0.7,
+      "layer": 0,
+      "expert_idx": 228
+    },
+    {
+      "name": "L0.expert228.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1233.55,
+      "twonn_row_dim": 99.66,
+      "twonn_col_dim": 175.29,
+      "correlation_dim_D2": 30.66,
+      "time_s": 0.7,
+      "layer": 0,
+      "expert_idx": 228
+    },
+    {
+      "name": "L0.expert6.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1221.86,
+      "twonn_row_dim": 100.22,
+      "twonn_col_dim": 141.03,
+      "correlation_dim_D2": 0.39,
+      "time_s": 0.7,
+      "layer": 0,
+      "expert_idx": 6
+    },
+    {
+      "name": "L0.expert6.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1359.14,
+      "twonn_row_dim": 130.15,
+      "twonn_col_dim": 277.62,
+      "correlation_dim_D2": 120.7,
+      "time_s": 0.6,
+      "layer": 0,
+      "expert_idx": 6
+    },
+    {
+      "name": "L0.expert6.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1243.9,
+      "twonn_row_dim": 184.01,
+      "twonn_col_dim": 127.82,
+      "correlation_dim_D2": 65.69,
+      "time_s": 0.7,
+      "layer": 0,
+      "expert_idx": 6
+    },
+    {
+      "name": "L0.gate",
+      "shape": [
+        256,
+        4096
+      ],
+      "participation_ratio": 54.61,
+      "twonn_row_dim": 44.42,
+      "twonn_col_dim": 69.17,
+      "correlation_dim_D2": 29.44,
+      "time_s": 0.0,
+      "layer": 0,
+      "category": "routing"
+    },
+    {
+      "name": "L10.wkv",
+      "shape": [
+        512,
+        4096
+      ],
+      "participation_ratio": 448.98,
+      "twonn_row_dim": 89.38,
+      "twonn_col_dim": 173.98,
+      "correlation_dim_D2": 24.87,
+      "time_s": 0.1,
+      "layer": 10,
+      "category": "attn"
+    },
+    {
+      "name": "L10.wo_a",
+      "shape": [
+        8192,
+        4096
+      ],
+      "participation_ratio": 2154.49,
+      "twonn_row_dim": 304.86,
+      "twonn_col_dim": 63.14,
+      "correlation_dim_D2": 15.96,
+      "time_s": 5.5,
+      "layer": 10,
+      "category": "attn"
+    },
+    {
+      "name": "L10.wo_b",
+      "shape": [
+        4096,
+        8192
+      ],
+      "participation_ratio": 2071.43,
+      "twonn_row_dim": 340.89,
+      "twonn_col_dim": 295.95,
+      "correlation_dim_D2": 0.01,
+      "time_s": 5.5,
+      "layer": 10,
+      "category": "attn"
+    },
+    {
+      "name": "L10.wq_a",
+      "shape": [
+        1024,
+        4096
+      ],
+      "participation_ratio": 804.71,
+      "twonn_row_dim": 162.3,
+      "twonn_col_dim": 262.93,
+      "correlation_dim_D2": 109.8,
+      "time_s": 0.1,
+      "layer": 10,
+      "category": "attn"
+    },
+    {
+      "name": "L10.wq_b",
+      "shape": [
+        32768,
+        1024
+      ],
+      "participation_ratio": 976.41,
+      "twonn_row_dim": 49.59,
+      "twonn_col_dim": 154.9,
+      "correlation_dim_D2": 4.58,
+      "time_s": 0.2,
+      "layer": 10,
+      "category": "attn"
+    },
+    {
+      "name": "L10.expert112.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1151.64,
+      "twonn_row_dim": 188.9,
+      "twonn_col_dim": 28.25,
+      "correlation_dim_D2": 1.33,
+      "time_s": 0.7,
+      "layer": 10,
+      "expert_idx": 112
+    },
+    {
+      "name": "L10.expert112.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1170.03,
+      "twonn_row_dim": 179.01,
+      "twonn_col_dim": 132.12,
+      "correlation_dim_D2": 59.7,
+      "time_s": 0.7,
+      "layer": 10,
+      "expert_idx": 112
+    },
+    {
+      "name": "L10.expert112.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1230.66,
+      "twonn_row_dim": 193.47,
+      "twonn_col_dim": 22.08,
+      "correlation_dim_D2": 31.22,
+      "time_s": 0.7,
+      "layer": 10,
+      "expert_idx": 112
+    },
+    {
+      "name": "L10.expert247.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1110.66,
+      "twonn_row_dim": 115.58,
+      "twonn_col_dim": 38.35,
+      "correlation_dim_D2": 14.91,
+      "time_s": 0.7,
+      "layer": 10,
+      "expert_idx": 247
+    },
+    {
+      "name": "L10.expert247.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1102.02,
+      "twonn_row_dim": 69.82,
+      "twonn_col_dim": 134.86,
+      "correlation_dim_D2": 82.17,
+      "time_s": 0.6,
+      "layer": 10,
+      "expert_idx": 247
+    },
+    {
+      "name": "L10.expert247.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1229.52,
+      "twonn_row_dim": 40.84,
+      "twonn_col_dim": 14.29,
+      "correlation_dim_D2": 40.53,
+      "time_s": 0.6,
+      "layer": 10,
+      "expert_idx": 247
+    },
+    {
+      "name": "L10.gate",
+      "shape": [
+        256,
+        4096
+      ],
+      "participation_ratio": 43.62,
+      "twonn_row_dim": 21.67,
+      "twonn_col_dim": 35.55,
+      "correlation_dim_D2": 13.58,
+      "time_s": 0.0,
+      "layer": 10,
+      "category": "routing"
+    },
+    {
+      "name": "L20.wkv",
+      "shape": [
+        512,
+        4096
+      ],
+      "participation_ratio": 450.56,
+      "twonn_row_dim": 68.33,
+      "twonn_col_dim": 240.67,
+      "correlation_dim_D2": 11.76,
+      "time_s": 0.1,
+      "layer": 20,
+      "category": "attn"
+    },
+    {
+      "name": "L20.wo_a",
+      "shape": [
+        8192,
+        4096
+      ],
+      "participation_ratio": 2378.95,
+      "twonn_row_dim": 316.79,
+      "twonn_col_dim": 133.09,
+      "correlation_dim_D2": 41.53,
+      "time_s": 5.5,
+      "layer": 20,
+      "category": "attn"
+    },
+    {
+      "name": "L20.wo_b",
+      "shape": [
+        4096,
+        8192
+      ],
+      "participation_ratio": 2095.42,
+      "twonn_row_dim": 12.83,
+      "twonn_col_dim": 307.95,
+      "correlation_dim_D2": 117.75,
+      "time_s": 5.5,
+      "layer": 20,
+      "category": "attn"
+    },
+    {
+      "name": "L20.wq_a",
+      "shape": [
+        1024,
+        4096
+      ],
+      "participation_ratio": 769.88,
+      "twonn_row_dim": 94.73,
+      "twonn_col_dim": 383.58,
+      "correlation_dim_D2": 77.94,
+      "time_s": 0.1,
+      "layer": 20,
+      "category": "attn"
+    },
+    {
+      "name": "L20.wq_b",
+      "shape": [
+        32768,
+        1024
+      ],
+      "participation_ratio": 969.85,
+      "twonn_row_dim": 30.34,
+      "twonn_col_dim": 55.5,
+      "correlation_dim_D2": 13.09,
+      "time_s": 0.2,
+      "layer": 20,
+      "category": "attn"
+    },
+    {
+      "name": "L20.expert22.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 816.32,
+      "twonn_row_dim": 124.64,
+      "twonn_col_dim": 68.38,
+      "correlation_dim_D2": 8.25,
+      "time_s": 0.7,
+      "layer": 20,
+      "expert_idx": 22
+    },
+    {
+      "name": "L20.expert22.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 792.3,
+      "twonn_row_dim": 29.4,
+      "twonn_col_dim": 65.1,
+      "correlation_dim_D2": 52.26,
+      "time_s": 0.7,
+      "layer": 20,
+      "expert_idx": 22
+    },
+    {
+      "name": "L20.expert22.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1016.58,
+      "twonn_row_dim": 88.5,
+      "twonn_col_dim": 80.82,
+      "correlation_dim_D2": 6.6,
+      "time_s": 0.7,
+      "layer": 20,
+      "expert_idx": 22
+    },
+    {
+      "name": "L20.expert79.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 969.0,
+      "twonn_row_dim": 47.54,
+      "twonn_col_dim": 76.22,
+      "correlation_dim_D2": 7.21,
+      "time_s": 0.7,
+      "layer": 20,
+      "expert_idx": 79
+    },
+    {
+      "name": "L20.expert79.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1102.7,
+      "twonn_row_dim": 34.35,
+      "twonn_col_dim": 42.33,
+      "correlation_dim_D2": 23.14,
+      "time_s": 0.6,
+      "layer": 20,
+      "expert_idx": 79
+    },
+    {
+      "name": "L20.expert79.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1191.8,
+      "twonn_row_dim": 122.16,
+      "twonn_col_dim": 73.15,
+      "correlation_dim_D2": 4.84,
+      "time_s": 0.6,
+      "layer": 20,
+      "expert_idx": 79
+    },
+    {
+      "name": "L20.gate",
+      "shape": [
+        256,
+        4096
+      ],
+      "participation_ratio": 37.43,
+      "twonn_row_dim": 31.85,
+      "twonn_col_dim": 33.35,
+      "correlation_dim_D2": 15.69,
+      "time_s": 0.0,
+      "layer": 20,
+      "category": "routing"
+    },
+    {
+      "name": "L30.wkv",
+      "shape": [
+        512,
+        4096
+      ],
+      "participation_ratio": 372.47,
+      "twonn_row_dim": 120.17,
+      "twonn_col_dim": 255.4,
+      "correlation_dim_D2": 2.43,
+      "time_s": 0.1,
+      "layer": 30,
+      "category": "attn"
+    },
+    {
+      "name": "L30.wo_a",
+      "shape": [
+        8192,
+        4096
+      ],
+      "participation_ratio": 2020.1,
+      "twonn_row_dim": 265.36,
+      "twonn_col_dim": 455.35,
+      "correlation_dim_D2": 21.84,
+      "time_s": 5.5,
+      "layer": 30,
+      "category": "attn"
+    },
+    {
+      "name": "L30.wo_b",
+      "shape": [
+        4096,
+        8192
+      ],
+      "participation_ratio": 1961.21,
+      "twonn_row_dim": 69.31,
+      "twonn_col_dim": 277.37,
+      "correlation_dim_D2": 0.01,
+      "time_s": 5.5,
+      "layer": 30,
+      "category": "attn"
+    },
+    {
+      "name": "L30.wq_a",
+      "shape": [
+        1024,
+        4096
+      ],
+      "participation_ratio": 737.72,
+      "twonn_row_dim": 188.42,
+      "twonn_col_dim": 438.5,
+      "correlation_dim_D2": 75.61,
+      "time_s": 0.1,
+      "layer": 30,
+      "category": "attn"
+    },
+    {
+      "name": "L30.wq_b",
+      "shape": [
+        32768,
+        1024
+      ],
+      "participation_ratio": 969.3,
+      "twonn_row_dim": 40.23,
+      "twonn_col_dim": 373.66,
+      "correlation_dim_D2": 9.3,
+      "time_s": 0.2,
+      "layer": 30,
+      "category": "attn"
+    },
+    {
+      "name": "L30.expert183.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1272.78,
+      "twonn_row_dim": 16.59,
+      "twonn_col_dim": 191.35,
+      "correlation_dim_D2": 81.12,
+      "time_s": 0.7,
+      "layer": 30,
+      "expert_idx": 183
+    },
+    {
+      "name": "L30.expert183.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1327.9,
+      "twonn_row_dim": 24.5,
+      "twonn_col_dim": 28.1,
+      "correlation_dim_D2": 98.16,
+      "time_s": 0.7,
+      "layer": 30,
+      "expert_idx": 183
+    },
+    {
+      "name": "L30.expert183.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1352.81,
+      "twonn_row_dim": 66.0,
+      "twonn_col_dim": 147.0,
+      "correlation_dim_D2": 101.87,
+      "time_s": 0.7,
+      "layer": 30,
+      "expert_idx": 183
+    },
+    {
+      "name": "L30.expert2.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1269.7,
+      "twonn_row_dim": 100.6,
+      "twonn_col_dim": 90.72,
+      "correlation_dim_D2": 75.71,
+      "time_s": 0.6,
+      "layer": 30,
+      "expert_idx": 2
+    },
+    {
+      "name": "L30.expert2.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1310.5,
+      "twonn_row_dim": 20.76,
+      "twonn_col_dim": 161.16,
+      "correlation_dim_D2": 93.74,
+      "time_s": 0.7,
+      "layer": 30,
+      "expert_idx": 2
+    },
+    {
+      "name": "L30.expert2.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1351.75,
+      "twonn_row_dim": 80.33,
+      "twonn_col_dim": 105.95,
+      "correlation_dim_D2": 108.66,
+      "time_s": 0.7,
+      "layer": 30,
+      "expert_idx": 2
+    },
+    {
+      "name": "L30.gate",
+      "shape": [
+        256,
+        4096
+      ],
+      "participation_ratio": 32.46,
+      "twonn_row_dim": 44.11,
+      "twonn_col_dim": 75.32,
+      "correlation_dim_D2": 18.72,
+      "time_s": 0.0,
+      "layer": 30,
+      "category": "routing"
+    },
+    {
+      "name": "L42.wkv",
+      "shape": [
+        512,
+        4096
+      ],
+      "participation_ratio": 441.02,
+      "twonn_row_dim": 120.65,
+      "twonn_col_dim": 90.05,
+      "correlation_dim_D2": 30.77,
+      "time_s": 0.1,
+      "layer": 42,
+      "category": "attn"
+    },
+    {
+      "name": "L42.wo_a",
+      "shape": [
+        8192,
+        4096
+      ],
+      "participation_ratio": 2044.26,
+      "twonn_row_dim": 245.64,
+      "twonn_col_dim": 141.98,
+      "correlation_dim_D2": 25.98,
+      "time_s": 5.5,
+      "layer": 42,
+      "category": "attn"
+    },
+    {
+      "name": "L42.wo_b",
+      "shape": [
+        4096,
+        8192
+      ],
+      "participation_ratio": 1052.39,
+      "twonn_row_dim": 207.86,
+      "twonn_col_dim": 26.74,
+      "correlation_dim_D2": 0.05,
+      "time_s": 5.6,
+      "layer": 42,
+      "category": "attn"
+    },
+    {
+      "name": "L42.wq_a",
+      "shape": [
+        1024,
+        4096
+      ],
+      "participation_ratio": 795.24,
+      "twonn_row_dim": 158.55,
+      "twonn_col_dim": 65.01,
+      "correlation_dim_D2": 1.96,
+      "time_s": 0.1,
+      "layer": 42,
+      "category": "attn"
+    },
+    {
+      "name": "L42.wq_b",
+      "shape": [
+        32768,
+        1024
+      ],
+      "participation_ratio": 959.22,
+      "twonn_row_dim": 177.37,
+      "twonn_col_dim": 286.82,
+      "correlation_dim_D2": 9.72,
+      "time_s": 0.2,
+      "layer": 42,
+      "category": "attn"
+    },
+    {
+      "name": "L42.expert159.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1167.16,
+      "twonn_row_dim": 124.23,
+      "twonn_col_dim": 43.6,
+      "correlation_dim_D2": 53.22,
+      "time_s": 0.7,
+      "layer": 42,
+      "expert_idx": 159
+    },
+    {
+      "name": "L42.expert159.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1283.98,
+      "twonn_row_dim": 88.53,
+      "twonn_col_dim": 95.96,
+      "correlation_dim_D2": 5.71,
+      "time_s": 0.6,
+      "layer": 42,
+      "expert_idx": 159
+    },
+    {
+      "name": "L42.expert159.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1331.07,
+      "twonn_row_dim": 92.33,
+      "twonn_col_dim": 37.46,
+      "correlation_dim_D2": 47.63,
+      "time_s": 0.7,
+      "layer": 42,
+      "expert_idx": 159
+    },
+    {
+      "name": "L42.expert37.w1",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1014.34,
+      "twonn_row_dim": 16.44,
+      "twonn_col_dim": 63.32,
+      "correlation_dim_D2": 20.3,
+      "time_s": 0.7,
+      "layer": 42,
+      "expert_idx": 37
+    },
+    {
+      "name": "L42.expert37.w2",
+      "shape": [
+        4096,
+        2048
+      ],
+      "participation_ratio": 1311.47,
+      "twonn_row_dim": 27.6,
+      "twonn_col_dim": 121.41,
+      "correlation_dim_D2": 33.19,
+      "time_s": 0.6,
+      "layer": 42,
+      "expert_idx": 37
+    },
+    {
+      "name": "L42.expert37.w3",
+      "shape": [
+        2048,
+        4096
+      ],
+      "participation_ratio": 1231.89,
+      "twonn_row_dim": 140.63,
+      "twonn_col_dim": 29.87,
+      "correlation_dim_D2": 4.93,
+      "time_s": 0.7,
+      "layer": 42,
+      "expert_idx": 37
+    },
+    {
+      "name": "L42.gate",
+      "shape": [
+        256,
+        4096
+      ],
+      "participation_ratio": 20.03,
+      "twonn_row_dim": 26.77,
+      "twonn_col_dim": 66.42,
+      "correlation_dim_D2": 9.33,
+      "time_s": 0.0,
+      "layer": 42,
+      "category": "routing"
+    }
+  ]
+}
