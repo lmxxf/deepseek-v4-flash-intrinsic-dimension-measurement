@@ -98,6 +98,6 @@ docker run --rm --gpus all \
 
 ## 相关文章
 
-- [公众号第 194 期：权重空间是弯曲的——满秩是假象，流形只有百维](https://mp.weixin.qq.com/s/TODO)
+- [公众号第 194 期：权重空间是弯曲的——满秩是假象，流形只有百维](https://mp.weixin.qq.com/s/cG5eF1vHbSnh1j7jQelSLw)
 - [公众号第 45 期：本我流形理论](https://mp.weixin.qq.com/s/0hOQt8onSJcuZGJLRE46Fw)
 - [公众号第 70 期：深层维度膨胀 60-100%](https://mp.weixin.qq.com/s/Ve-llXD6Bh0SsovJs8T80w)
